@@ -38,19 +38,13 @@ if ( number > 0){
 }
 // Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo. Retorne true se os ângulos representarem os ângulos de um triângulo e false , caso contrário. Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
 const d = 90;
-const e = 45;
+const e = 5;
 const f =45;
  if ( d>0 || e> 0 || f > 0 ) {
-     if (d + e + f === 180){
-        console.log(!0)
-     }else {
-        console.log(!!0)
-    }
-     
+     console.log(d + e + f === 180)
  } 
 
-// Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
-// Um ângulo será considerado inválido se não tiver um valor positivo.
+
 // Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
 // Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
 // Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case) .
