@@ -37,5 +37,3 @@ weekDay === 'sexta-feira') {
     console.log('FINALMENTE, descanso merecido Uwu')
 }
 // Experimente trocar o valor da string ou até mesmo montar seu próprio algoritmo. Esse assunto é muito importante para seu aprendizado :).
-console.log((2 + 2) === 4);
-console.log(!(2 + 2) === 4);
