@@ -1,1 +1,0 @@
-moradores.blocoDois[moradores.blocoDois.length-1]
