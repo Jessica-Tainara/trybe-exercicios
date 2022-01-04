@@ -5,12 +5,13 @@ const grades = [[9, 8, 10, 7, 5], [10, 9, 9, 10, 8], [10, 7, 10, 8, 9]];
 
 function studentAverage() {
   // escreva seu código aqui
-  return students.map((student, i)=>students.reduce((acc)=>{
-    acc['name'] = student
-    acc['average'] =  grades.map((nota)=> nota.reduce((count, not)=>count+not)/nota.length)[i]
-return acc
-} 
-, {}))
+  return students.map((student, i)=>{
+    return {
+    name : student,
+    average : grades[i].reduce((count, nota)=>
+    count+nota)/grades[i].length
+    }
+  })
 
 }
 
